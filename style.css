@@ -1,0 +1,137 @@
+body {
+    color: #222;
+    background: #F6F6F6;
+    width: 750px;
+    margin: 0 auto;
+    padding: 0;
+    font-family: Roboto, Karla, sans-serif;
+    font-size: 11px;
+    line-height: 175%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+header {
+    float: left;
+    background-color: darksalmon;
+    color: white;
+    padding: 25px;
+    height: 100%;
+    width: 200px;
+    position: fixed;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 400;
+    height: min-content;
+    line-height: 1;
+    display: inline-block;
+}
+
+h1 {
+    font-size: 22px;
+}
+
+h2 {
+    font-size: 17px;
+}
+
+h3 {
+    font-size: 14px;
+}
+
+blockquote {
+    text-align: left;
+    background: #F6F6F6;
+    margin: 0;
+    margin-top: 25px;
+    padding: 25px;
+}
+
+blockquote:first-of-type {
+    margin-top: 0;
+}
+
+blockquote blockquote {
+    background: white;
+    padding: 5px 25px;
+}
+
+img {
+    display: block;
+    width: 100%;
+    margin-bottom: 25px;
+    image-rendering: auto;
+}
+
+img:last-child {
+    margin-bottom: 0;
+}
+
+img:hover {
+    opacity: .75;
+}
+
+hr {
+    width: 100%;
+    border: 0px solid white;
+    border-top: 1px solid white;
+    margin: 15px auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    opacity: .5;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    padding: 0;
+    margin: 0;
+}
+
+article {
+    width: 450px;
+    float: right;
+    background-color: white;
+    padding: 25px;
+}
+
+article div {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    -webkit-column-gap: 0;
+    -moz-column-gap: 0;
+    column-gap: 0;
+}
+
+i.material-icons {
+    vertical-align: text-bottom;
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+    text-align: left;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    font-feature-settings: 'liga';
+}
